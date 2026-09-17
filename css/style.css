@@ -1,13 +1,106 @@
-*{
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     margin-inline: 4rem;
+}
+
+/* Header */
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F8F8;
+    border-radius: 35px;
+    margin-top: 2rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    width: 15%;
+}
+
+.logo h2 {
+    width: 10%;
+    color: #050F27;
+    font-family: "Poppins", sans-serif;
+    font-weight: 540;
+    font-style: normal;
+}
+
+.logo img {
+    width: 25%;
+}
+
+.nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav ul { 
+    list-style: none;
+    
+}
+
+.nav ul nav{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #050F27;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    transition: 0.2s;
+    display: inline-block;
+}
+
+.nav a:hover{
+    transform: translateY(-4px);
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    transition: 0.2s;
+    display: inline-block;
+}
+
+.contact a:hover{
+    transform: translateY(-4px);
+}
+
+.contact{
+    background-color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 8rem;
+    background-color: #050F27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
 }
