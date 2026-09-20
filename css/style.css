@@ -341,3 +341,78 @@ body {
 .properties-button a:hover {
     transform: translateY(-4px);
 }
+
+/* Reviews */
+
+.reviews_parent{
+    background-color: #F7F8F8;
+    border-radius: 35px;
+    height: 50rem;
+    margin-bottom: 5rem;
+    padding: 5rem 4rem;
+}
+
+.reviews-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews-child .reviews-card{
+    padding: 2rem;
+    width: 30%;
+    height: 300px;
+}
+
+.reviews-child2 .reviews-card{
+    padding: 2rem;
+    width: 30%;
+    height: 300px;
+    position: relative;
+    top: 4rem;
+}
+
+
+.reviews-child2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.reviews-card{
+    border-radius: 25px;
+    background-color: white;
+}
+
+.reviews-card p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #050F27;
+}
+
+.reviews-card span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #050F27;
+    position: relative;
+    left: 12rem;
+    z-index: 2;
+}
+
+.reviews-card img{
+    max-width: 100px;
+    height: auto;
+    position: relative;
+    top: 3rem;
+    left: 6rem;
+}
+
+.reviews-child h2{
+    color: #050F27;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 5rem;
+    width: 50%;
+}
