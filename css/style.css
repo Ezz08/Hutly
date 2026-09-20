@@ -416,3 +416,78 @@ body {
     font-size: 5rem;
     width: 50%;
 }
+
+.services_parent{
+    background-color: #F7F8F8;
+    border-radius: 35px;
+    height: 50rem;
+    margin-bottom: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 48rem;
+    
+}
+
+.services_parent-card{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 2rem;
+    gap: 2rem;
+
+}
+
+.services_parent h1{
+    color: #050F27;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+.services-card{
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    border-radius: 35px;
+    width: 100%;
+
+}
+
+.services-card:first-child{
+    background-color: #050F27;
+    color: white;
+    border-radius: 35px;
+}
+
+.services-card:last-child{
+    width: 33%;
+}
+
+.services-card span{
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+    position: relative;
+    bottom: 15%;
+    left: 80%;
+}
+
+.services-card h2{
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+    position: relative;
+    bottom: 10%;
+}
+
+.services-card p{
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
